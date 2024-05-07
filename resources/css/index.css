@@ -1,0 +1,149 @@
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+  }
+
+
+#name {
+    color: black;
+    
+   
+    max-width: 50px;
+    padding: 0;
+  }
+  
+  h1{
+
+  }
+
+p{
+    font-size: 1rem;
+    
+}
+
+
+   
+ ul li {
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+    display: grid;
+    margin: 30px;
+    position: relative;
+    font-weight: bold;
+    color: black;
+  }
+  
+  
+  a {
+    text-decoration:none;
+    color: black;
+  }
+  .nav{
+    /**background-color: black;*/
+    color: black;
+    margin-top: 60px;
+    text-align: center;
+    /*position: fixed;*/
+   
+  }
+
+  #homeicon, #linkedin-logo{
+    height: 28px;
+    width:28px;
+  }
+  .wrapper{
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    text-rendering: optimizeLegibility;
+  }
+  .my_profile {
+    max-width: 100%;
+    position: relative;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: var(--content-width);
+    
+  }
+  #intro{
+   display: inline-block;
+  }
+
+  div{
+    display: block;
+  }
+
+  #intro-paragraph{
+    margin-right: 40px;
+    text-align: left;
+    margin: 0 0 1.5rem;
+    line-height: 1.5;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+  }
+  .content-text{
+    font-weight: 1.4em;
+    display: block;
+    margin-left: 500px;
+    margin-right: 500px;
+    overflow: content;
+
+  }
+
+ body{
+    background-color:#f8f3f5;
+ }
+
+ .conception{
+    text-align: right;
+    position: relative;
+ }
+
+ #intro{
+    overflow: hidden;
+    position: relative;
+  
+ }
+
+ .main-footer{
+    margin-top: 150px;
+    margin-bottom: 0;
+    margin-right: 500px;
+    position: relative;
+    display: box;
+ }
+
+ .skills-container {
+  text-align: center;
+  margin-bottom: 3rem;
+  display: grid;
+  width:1000px;
+  grid-template-columns: 33% 33% 33% 33%;
+  margin-left:0 100%;
+  line-height: 3rem;;
+ }
+
+section.skills-tools {
+  /*background-color: ;*/
+  padding-top: 80px;
+}
+
+
+.fa-3xl, .devicon-3xl{
+  font-size:3em;
+}
